@@ -83,10 +83,6 @@ We will use the raw accelerometer data within the inertial_signals folder. The p
 
 8. Are there any participants/ activitivies where the Model performace is bad? If Yes, Why?
 
-**NOTE:-**
-1. Show your results in a Jupyter Notebook or an MD file. If you opt for using an MD file, you should also include the code.
-2. If you wish you can use the scikit-learn implementation of Decision Tree for the Mini-Project.
-
 # Collecting your Own data.
 Utilize apps like `Physics Toolbox Suite` to collect your data in .csv/.txt format. Ensure at least 15 seconds of data is collected, trimming edges to obtain 10 seconds of relevant data. Collect 3-5 samples per activity class and report accuracy using both featurized and raw data. You have to train on UCI dataset (You can use the entire dataset if you want) and test it on the data that you have collected and report the accuracy and confusion matrix. Test your model's performance on the collected data, explaining why it succeeded or failed. 
 
@@ -94,3 +90,8 @@ Utilize apps like `Physics Toolbox Suite` to collect your data in .csv/.txt form
 * Ensure the phone is placed in the same position for all the activities.
 * Ensure the phone is in the same alignment during the activity as changing the alignment will change the data collected and will affect the model's performance. 
 * Ensure to have atleast 10s of data per file for training. As the data is collected at 50Hz, you will have 500 data samples.
+
+### **NOTE:-**
+1. Show your results in a Jupyter Notebook or an MD file. If you opt for using an MD file, you should also include the code.
+2. If you wish you can use the scikit-learn implementation of Decision Tree for the Mini-Project.
+

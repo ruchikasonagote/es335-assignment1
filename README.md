@@ -67,21 +67,21 @@ We will use the raw accelerometer data within the inertial_signals folder. The p
 
 ## Questions/Tasks
 
-* Plot the waveform for data from each activity class. Are you able to see any difference/similarities between the activities? You can plot a subplot having 6 colunms to show differences/similarities between the activities. Do you think the model will be able to classify the activities based on the data? 
+1. Plot the waveform for data from each activity class. Are you able to see any difference/similarities between the activities? You can plot a subplot having 6 colunms to show differences/similarities between the activities. Do you think the model will be able to classify the activities based on the data? 
 
-* **Q1>** Do you think we need a Machine learning model to differentiate between static activities(laying, sitting, standing) and dynamic activities(walking, walking_downstairs, walking_upstairs)? Look at the linear acceleration $(acc_x^2+acc_y^2+acc_z^2)$ for each activity and justify your answer. 
+2. Do you think we need a Machine learning model to differentiate between static activities(laying, sitting, standing) and dynamic activities(walking, walking_downstairs, walking_upstairs)? Look at the linear acceleration $(acc_x^2+acc_y^2+acc_z^2)$ for each activity and justify your answer. 
 
-* **Q2>** Train Decision Tree using trainset and report Accuracy and confusion matrix using testset.
+3. Train Decision Tree using trainset and report Accuracy and confusion matrix using testset.
 
-* **Q3>** Train Decision Tree with varrying depths(2-8) using trainset and report accuracy and confusion matrix using Test set. Does the accuracy changes when the depth is increased? Plot the accuracies and reason why such a result has been obtained.
+4. Train Decision Tree with varrying depths(2-8) using trainset and report accuracy and confusion matrix using Test set. Does the accuracy changes when the depth is increased? Plot the accuracies and reason why such a result has been obtained.
 
-* **Q4>** Use PCA (Principal Component Analysis) on Total Acceleration $(acc_x^2+acc_y^2+acc_z^2)$ to compress it into two features and plot a scatter plot to visualize different class of activities. Now, use [TSFEL](https://tsfel.readthedocs.io/en/latest/) ([a featurizer library](https://github.com/fraunhoferportugal/tsfel)) to create features then perform PCA to obtain two features. plot a scatter plot to visualize different class of activities. Are you able to see any difference?
+5. Use PCA (Principal Component Analysis) on Total Acceleration $(acc_x^2+acc_y^2+acc_z^2)$ to compress it into two features and plot a scatter plot to visualize different class of activities. Now, use [TSFEL](https://tsfel.readthedocs.io/en/latest/) ([a featurizer library](https://github.com/fraunhoferportugal/tsfel)) to create features then perform PCA to obtain two features. plot a scatter plot to visualize different class of activities. Are you able to see any difference?
 
-* **Q5>** Use the features obtained from TSFEL and train a Decision Tree. Report the accuracy and confusion matrix using test set. Does featurizing works better than using the raw data? Compare the accuracies obtained in Q2 with the accuracies obtained using featured trainset. Plot the accuracies obtained in Q2 against the accuracies obtained in this question.
+6. Use the features obtained from TSFEL and train a Decision Tree. Report the accuracy and confusion matrix using test set. Does featurizing works better than using the raw data? Train Decision Tree with varrying depths(2-8) and compare the accuracies obtained in Q4 with the accuracies obtained using featured trainset. Plot the accuracies obtained in Q4 against the accuracies obtained in this question.
 
-* **Q6>** Use a test-train-validation split to obtain optimum depth of the tree using both raw data and features obtained.
+7. Use K-fold validation using the provided test-train-validation split to obtain optimum depth of the tree using both raw data and features obtained. Try experimenting with different values of K (3,5,7).
 
-* **Q7>** Are there any participants/ activitivies where the Model performace is bad? If Yes, Why?
+8. Are there any participants/ activitivies where the Model performace is bad? If Yes, Why?
 
 **Show your results in a Jupyter Notebook or an MD file. If you opt for using an MD file, you should also include the code.**
 

@@ -83,7 +83,7 @@ We will use the raw accelerometer data within the inertial_signals folder. The p
 
 8. Are there any participants/ activitivies where the Model performace is bad? If Yes, Why?
 
-**Show your results in a Jupyter Notebook or an MD file. If you opt for using an MD file, you should also include the code.**
+**NOTE:-** Show your results in a Jupyter Notebook or an MD file. If you opt for using an MD file, you should also include the code.
 
 # Collecting your Own data.
 Utilize apps like `Physics Toolbox Suite` to collect your data in .csv/.txt format. Ensure at least 15 seconds of data is collected, trimming edges to obtain 10 seconds of relevant data. Collect 3-5 samples per activity class and report accuracy using both featurized and raw data. You have to train on UCI dataset (You can use the entire dataset if you want) and test it on the data that you have collected and report the accuracy and confusion matrix. Test your model's performance on the collected data, explaining why it succeeded or failed. 

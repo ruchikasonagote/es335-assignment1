@@ -1,7 +1,7 @@
 # Assignment 1
 ## Questions
 
-1. Complete the decision tree implementation in tree/base.py. **[5 marks]**
+1. Complete the decision tree implementation in tree/base.py. **[4 marks]**
 The code should be written in Python and not use existing libraries other than the ones shared in class or already imported in the code. Your decision tree should work for four cases: i) discrete features, discrete output; ii) discrete features, real output; iii) real features, discrete output; real features, real output.
  Your decision tree should be able to use GiniIndex or InformationGain (Entropy) as the criteria for splitting for discrete output. Your decision tree should be able to use InformationGain (MSE) as the criteria for splitting for real output. Your code should also be able to plot/display the decision tree. 
 
@@ -38,9 +38,9 @@ The code should be written in Python and not use existing libraries other than t
     > You should be editing `classification-exp.py` for the code containing the above experiments.
 
 3. 
-    a) Show the usage of your decision tree for the [automotive efficiency](https://archive.ics.uci.edu/ml/datasets/auto+mpg) problem. **[1 mark]**
+    a) Show the usage of your decision tree for the [automotive efficiency](https://archive.ics.uci.edu/ml/datasets/auto+mpg) problem. **[0.5 marks]**
     
-    b) Compare the performance of your model with the decision tree module from scikit learn. **[1 mark]**
+    b) Compare the performance of your model with the decision tree module from scikit learn. **[0.5 marks]**
     
    > You should be editing `auto-efficiency.py` for the code containing the above experiments.
     

@@ -67,9 +67,9 @@ We will use the raw accelerometer data within the inertial_signals folder. The p
 
 ## Questions/Tasks
 
-1. Plot the waveform for data from each activity class. Are you able to see any difference/similarities between the activities? You can plot a subplot having 6 colunms to show differences/similarities between the activities. Do you think the model will be able to classify the activities based on the data? **[2 marks]**
+1. Plot the waveform for data from each activity class. Are you able to see any difference/similarities between the activities? You can plot a subplot having 6 colunms to show differences/similarities between the activities. Do you think the model will be able to classify the activities based on the data? **[1 marks]**
 
-2. Do you think we need a Machine learning model to differentiate between static activities (laying, sitting, standing) and dynamic activities(walking, walking_downstairs, walking_upstairs)? Look at the linear acceleration $(acc_x^2+acc_y^2+acc_z^2)$ for each activity and justify your answer. **[1 mark]**
+2. Do you think we need a machine learning model to differentiate between static activities (laying, sitting, standing) and dynamic activities(walking, walking_downstairs, walking_upstairs)? Look at the linear acceleration $(acc_x^2+acc_y^2+acc_z^2)$ for each activity and justify your answer. **[1 mark]**
 
 3. Train Decision Tree using trainset and report Accuracy and confusion matrix using testset. **[1 mark]**
 
@@ -81,7 +81,7 @@ We will use the raw accelerometer data within the inertial_signals folder. The p
 
 7. Are there any participants/ activitivies where the Model performace is bad? If Yes, Why? **[1 mark]**
 
-# Deployment! **[5 marks]**
+# Deployment! **[4 marks]**
 For this exercise marks will not depend on what numbers you get but on the process you followed
 Utilize apps like `Physics Toolbox Suite` from your smartphone to collect your data in .csv/.txt format. Ensure at least 15 seconds of data is collected, trimming edges to obtain 10 seconds of relevant data. Collect 3-5 samples per activity class and report accuracy using both featurized and raw data. You have to train on UCI dataset (You can use the entire dataset if you want) and test it on the data that you have collected and report the accuracy and confusion matrix. Test your model's performance on the collected data, explaining why it succeeded or failed. 
 

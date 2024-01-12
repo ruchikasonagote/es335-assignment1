@@ -1,4 +1,7 @@
 # Assignment 1
+
+## Total 22 marks -> would be scaled to 11 marks
+
 ## Questions
 
 1. Complete the decision tree implementation in tree/base.py. **[4 marks]**
